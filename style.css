@@ -183,3 +183,63 @@ section{
     font-weight: 600;
 
 }
+
+/* services--------------------------------------- */
+.main-text{
+    text-align: center;
+}
+
+.main-text h2{
+    font-size: var(--h2-font);
+    margin-bottom: 10px;
+}
+
+.main-text h4{
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.services-content{
+    margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   gap: 2rem;
+}
+
+.logo-img i{
+    font-size: 50px;
+    color: #fd4209d7;
+}
+
+.box{
+    padding: 40px 20px;
+    background: #12141c;
+    border-top: 5px solid transparent;
+    transition: all .40s ease;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.box h3{
+    font-size: 22px;
+    font-weight: 600px;
+    margin: 15px 0;
+    transition: all .40s ease;
+}
+
+.box-text{
+    font-size: var(--p-font);
+    color: var(--second-color);
+}
+
+.box:hover{
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid var(--main-color);
+}
+
+.box:hover h3{
+    color: var(--main-color);
+}
