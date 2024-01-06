@@ -133,3 +133,8 @@ section{
     background: transparent;
     transform: scale(1.01) translateY(-5px);
 }
+
+/* about------------------------------------------ */
+.about{
+    /* background: var(--text-color); */
+}
