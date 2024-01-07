@@ -153,8 +153,8 @@ section{
 }
 
 .about .about-img{
-    position:relative;
-    left: 25%;
+    /* position:relative; */
+    /* left: 25%; */
     height: 500px;
     width: 400px;
 }
@@ -456,4 +456,20 @@ section{
 .top:hover i{
     background: transparent;
     transform: translateY(-5px);
+}
+
+/* responsive------------------------------------- */
+
+@media (max-width: 1325px){
+    header{
+        padding: 16px 3%;
+    }
+
+    header.sticky{
+        padding: 8px 3%;
+    }
+
+    section{
+        padding: 130px 8% 60px
+    }
 }
