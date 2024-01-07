@@ -421,3 +421,26 @@ section{
 .copyrights a:hover{
     color: var(--main-color);
 }
+
+/* scroll top-------------------------------------------- */
+.top{
+    position: fixed;
+    right: 2.1rem;
+    bottom: 2.1rem;
+}
+
+.top i{
+    color: var(--text-color);
+    background-color: var(--main-color);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid var(--main-color);
+    transition: all .40s ease;
+}
+
+.top:hover i{
+    background: transparent;
+    transform: translateY(-5px);
+}
