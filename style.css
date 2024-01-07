@@ -511,24 +511,26 @@ section{
 
     .navbar{
         position: absolute;
-        top: -600px;
+        top: 100%;
         left: 0;
         display: flex;
         flex-direction: column;
         background: #121412;
         text-align: right;
+        height: 0;
         width: 100%;
         transition: all 0.40s ease;
+        overflow: hidden;
+        z-index: 1;
     }
 
     .navbar a{
         display: block;
         padding: 1rem;
-        /* margin: 1rem; */
     }
 
     .navbar.active{
-        top: 100%;
+        height: 260px;
     }
 
     :root{
