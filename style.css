@@ -569,6 +569,77 @@ section{
         width: 150px;
         padding: 10px 20px;
     }
+}
 
-    
+@media (max-width: 885px){
+    /* navbar----------- */
+    .logo{
+        font-size: 2rem;
+    }
+
+    /*home------------ */
+    :root{
+        --h1-font: 3rem;
+        --h2-font: 1.8rem;
+        --p-font: 1rem;
+    }
+
+    .home{
+        z-index: 1;
+    }
+
+    .home-text h4{
+        font-size: 20px;
+    }
+
+    /* about----------- */
+    .about{
+        margin-top: -20%;
+        text-align: center;
+    }
+    .about .about-img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .about-gri{
+        grid-template-columns: 1fr;
+    }
+
+    /* portfolio----------- */
+    .portfolio-content{
+        width: 100%;
+    }
+
+    .row h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* contact------------ */
+    .contact{
+        margin-top: -20%;
+    }
+
+    .contact-form .send{
+        width: 100px;
+        padding: 8px 16px;
+    }
+
+    /* copyrights----------- */
+    .copyrights a{
+        font-size: 12px;
+
+    }
+
+    /* scroll top------------- */
+    .top{
+        position: fixed;
+        right: 1rem;
+    }
+
+    .top i{
+        font-size: 15px;
+        padding: 8px;
+    }
 }
