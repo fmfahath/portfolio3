@@ -301,5 +301,106 @@ section{
 }
 
 /* contact------------------------------------ */
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+    align-items: center;
+}
 
+.contact-text h2{
+    font-size: var(--h2-font);
+}
 
+.contact-text h4{
+      color: var(--main-color);
+      margin: 15px 0;
+      font-size: 20px;
+      font-weight: 600;
+}
+
+.contact-text p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.contact-list{
+    margin-bottom: 3rem;
+}
+
+.contact-list li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-list li a{
+    display: inline-block;
+    color: var(--second-color);
+    font-size: var(--p-font);
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: var(--main-color);
+}
+
+.contact-icon a{
+    width: 40px;
+    height: 40px;
+    background: #12141c;
+    color: var(--main-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-size: 23px;
+    margin-right: 10px;
+    transition: all.40s ease;
+}
+
+.contact-icon a:hover{
+    color: var(--text-color);
+    transform: scale(1.01) translateY(-5px);
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form input, textarea {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    background: #12141c;
+    color: var(--second-color);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+
+.contact-form .send{
+    display: inline-block;
+    font-weight: 500;
+    background: var(--main-color);
+    color: var(--text-color);
+    width: 190px;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+
+.contact-form .send:hover{
+    border: 1px solid var(--main-color);
+    background: transparent;
+    transform: scale(1.01) translateY(5px);
+}
