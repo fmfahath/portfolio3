@@ -255,6 +255,10 @@ section{
     color: var(--main-color);
 }
 
+.box:hover .logo-img i{
+    color: var(--text-color);
+}
+
 /* portfolio----------------------------------- */
 .portfolio-content{
     display: grid;
@@ -310,6 +314,15 @@ section{
 .row:hover img{
     transform: scale(105%);
 }
+
+.row:hover h6{
+    color: var(--text-color);
+}
+
+.row:hover h3{
+    color: var(--main-color);
+}
+     
 
 /* contact------------------------------------ */
 .contact{
@@ -533,6 +546,12 @@ section{
         height: 260px;
     }
 
+    .navbar a:hover{
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: var(--main-color);
+    }
+
     :root{
         --h1-font: 3.7rem;
         --h2-font: 2.7rem;
@@ -571,7 +590,7 @@ section{
     }
 }
 
-@media (max-width: 885px){
+@media (max-width: 500px){
     /* navbar----------- */
     .logo{
         font-size: 2rem;
