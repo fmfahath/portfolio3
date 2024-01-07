@@ -94,6 +94,7 @@ section{
     height: 100vh;
     position: relative;
     background: url(img/1.jpg);
+    background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
     display: flex;
@@ -147,12 +148,15 @@ section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+    position: relative;
 }
 
 .about .about-img{
-    height: 400px;
-    width: 450px;
+    position:relative;
+    left: 25%;
+    height: 500px;
+    width: 400px;
 }
 
 .about .about-img img{
