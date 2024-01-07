@@ -404,3 +404,20 @@ section{
     background: transparent;
     transform: scale(1.01) translateY(5px);
 }
+
+
+/* copyrights--------------------------------------- */
+.copyrights{
+    text-align: center;
+}
+.copyrights a{
+    color: var(--second-color);
+    letter-spacing: 1px;
+    padding: 15px;
+    font-size: 15px;
+    transition: all .40s ease;
+}
+
+.copyrights a:hover{
+    color: var(--main-color);
+}
