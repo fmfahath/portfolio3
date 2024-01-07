@@ -243,3 +243,62 @@ section{
 .box:hover h3{
     color: var(--main-color);
 }
+
+/* portfolio----------------------------------- */
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.row img{
+    height: 250px;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    transition: all .40s ease;
+}
+
+.row{
+    padding: 25px;
+    background: #12141c;
+    border-radius: .5rem;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.row h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.row h6{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--main-color);
+}
+
+.row-icon{
+    font-size: 21px;
+}
+
+.row:hover{
+    transform: scale(1.01) translateY(-5px);
+}
+
+.row:hover img{
+    transform: scale(105%);
+}
+
+
+
