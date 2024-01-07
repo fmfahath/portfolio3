@@ -153,8 +153,6 @@ section{
 }
 
 .about .about-img{
-    /* position:relative; */
-    /* left: 25%; */
     height: 500px;
     width: 400px;
 }
@@ -471,5 +469,36 @@ section{
 
     section{
         padding: 130px 8% 60px
+    }
+}
+
+@media (max-width: 970px){
+    :root{
+        --h1-font: 4.2rem;
+        --h2-font: 2.9rem;
+        --p-font: 1rem;
+    }
+
+    /* home-------------- */
+    .home{
+        height: 85vh;
+    }
+
+    /* about-------------- */
+    .about{
+        margin-top: -20%;
+        grid-template-columns: 1fr;
+    }
+
+    .about .about-img{
+        margin: 0 auto;
+        text-align: center;
+        /* z-index: -1; */
+    }
+
+    /* contact */
+    .contact{
+        grid-template-columns: 1fr;
+
     }
 }
